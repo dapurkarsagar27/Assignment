@@ -1,0 +1,291 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main-div {
+  width: 100%;
+  line-height: auto;
+}
+
+.navbar {
+  width: 80%;
+  margin: 0 10%;
+  /* border: 1px solid black; */
+}
+
+.navbar nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+  margin-left: 600px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.navbar nav a {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#shop-icon{
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#search {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.main-page{
+  width: 85%;
+  height: 93vh;
+  margin: 0 7.5%;
+  background-image: linear-gradient(to right,rgb(218, 218, 252) 35%,rgb(238, 238, 255) 30%);
+}
+
+.first-row{
+  width: 90%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  padding-right: 40px;
+}
+
+#bold{
+  font-weight: 700;
+}
+
+#tag{
+  font-weight: 400;
+}
+
+.second-row{
+  width: 85%;
+  margin: 0 7.5%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#product-name{
+  padding-left: 160px;
+}
+
+#kit-item{
+  display: flex;
+}
+
+#kit-item p{
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 6px 10px;
+  background-color: white;
+  text-align: center;
+}
+
+#items p{
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 6px 10px;
+  background-color: white;
+  width: 90px;
+  font-size: 14px;
+}
+
+#product-name h2{
+  font-weight: 400;
+}
+
+#stars{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+#star-icon{
+  margin-right: 20px;
+}
+
+#pro-category{
+  font-size: 16px;
+}
+
+#star-icon i{
+  padding: 0 2px;
+  color: orangered;
+}
+
+#review{
+  color: grey;
+  margin-left: 7px;
+}
+
+#points{
+  font-weight: 700;
+}
+
+#heart{
+  width: 30%;
+  height: auto;
+  /* border: 1px solid black; */
+  text-align: right;
+  padding: 20px 0;
+}
+
+#heart #heart-icon{
+  padding-bottom: 20px;
+  color: orangered;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+#heart h3{
+  padding-top: 35px;
+}
+
+#sheet-size{
+  font-size: 16px;
+}
+
+.third-row{
+  width: 90%;
+  margin: 0 5%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+}
+
+#para{
+  width: 50%;
+  /* border: 1px solid black; */
+  height: 55vh;
+  overflow-y: scroll;
+}
+
+#para h3{
+  font-size: 19px;
+}
+
+#para p{
+  font-size: 12px;
+}
+
+
+#pictures{
+  display: flex;
+}
+
+#pictures #small-pic img{
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+#pictures #big-pic img{
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+#details{
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+#no-color{
+  font-weight: 700;
+}
+
+#details h6{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#color-sign{
+  color: orangered;
+  font-size: 20px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+#details button{
+  outline: none;
+  background-color: orangered;
+  border-radius: 50px;
+  border: none;
+  font-size: 14px;
+  padding: 4px 15px;
+  color: white;
+}
+
+table{
+  width: 100%;
+  /* border-bottom: 1px solid rgb(146, 146, 146); */
+  margin-top: 15px;
+}
+
+#fields{
+  font-size: 14px;
+  border-bottom: 1px solid rgb(155, 155, 155);
+}
+
+#fields td{
+  padding: 12px 0;
+}
+
+#title{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#title td{
+  padding: 12px 0;
+}
+
+#main-row th{
+  border-bottom: 1px solid rgb(155, 155, 155);
+  margin-bottom: 12px;
+}
+
+ #color-th {
+  border-bottom: 1px solid orangered;
+}
+
+#arrow-btn{
+  width: 65px;
+  border: 1px solid white;
+  outline: none;
+  border-radius: 10px;
+  margin-left: 10px;
+}
